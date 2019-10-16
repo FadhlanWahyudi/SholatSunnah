@@ -17,6 +17,7 @@ public class Deskripsi extends AppCompatActivity {
         WebView = findViewById(R.id.WebView);
 
         Intent deskripsi = getIntent();
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         String link = deskripsi.getStringExtra("sunnah");
 
